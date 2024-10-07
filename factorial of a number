@@ -1,0 +1,19 @@
+3 5 number:7 result:0
+7 number dupnumber
+4 dupnumber zero 58
+2 dupnumber one less
+7 less temp
+4 temp zero 33
+1 result dupnumber result
+2 temp one temp
+3 19
+4 less zero 49
+2 less one less 
+7 result dupnumber
+7 zero result
+3 16
+7 dupnumber result 
+9
+less:0 temp:0 one:1 zero:0
+dupnumber:0
+1 result one result 9
