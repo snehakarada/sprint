@@ -1,0 +1,148 @@
+7 instruction main
+start:7 instruction instruct2
+7 instruction instruct3
+7 instruction instruct4
+7 instruction instruct5
+7 instruction instruct7
+7 instruction instruct9
+7 instruction instruct10
+
+4 instruction:421 one go1
+4 instruct2:0 two  go2
+4 instruct3:0 three go3
+4 instruct4:0 four go4
+4 instruct5:0 five go5
+4 instruct7:0 seven go7
+4 instruct9:0 nine go9
+4 instruct10:0 ten go10
+
+one:1 two:2 three:3 four:4 five:5 seven:7 nine:9 ten:10
+
+go1:1 one instruction num1
+1 two instruction num2
+1 three instruction num1+num2
+2 main one start_low1
+2 main one start_low2
+2 main one start_low3
+7 num1 num1add
+7 num2 num2add
+7 num1+num2 num1+num2add
+1  start_low1 num1add:0 num1_c_a
+1 start_low2 num2add:0 num2_c_a
+1 start_low3 num1+num2add:0
+num1+num2_c_a
+1 num1_c_a:0 num2_c_a:0
+num1+num2_c_a:0
+1 four instruction instruction
+3 start
+num1:0 num2:0 num1+num2:0
+start_low1:0 start_low2:0 start_low3:0
+
+
+go2:1 one instruction snum1
+1 two instruction snum2
+1 three instruction snum1+num2
+2 main one sstart_low1
+2 main one sstart_low2
+2 main one sstart_low3
+7 snum1 snum1add
+7 snum2 snum2add
+7 snum1+num2 snum1+num2add
+1  sstart_low1 snum1add:0 snum1_c_a
+1 sstart_low2 snum2add:0 snum2_c_a
+1 sstart_low3 snum1+num2add:0
+snum1+num2_c_a
+2 snum1_c_a:0 snum2_c_a:0
+snum1+num2_c_a:0
+1 four instruction instruction
+3 start
+
+snum1:0 snum2:0 snum1+num2:0
+sstart_low1:0 sstart_low2:0 sstart_low3:0 main:0
+
+go3:2 main one mstart_low
+1 one instruction mnum
+7 mnum mnumadd
+1 mstart_low mnumadd:0
+instruction
+3 start
+mnum:0 mstart_low:0
+
+
+go4:1 one instruction jnum1
+1 two instruction jnum2
+1  three instruction jnum3
+2 main one jstart_low1
+2 main one jstart_low2
+2 main one jstart_low3
+1 jstart_low1 jnum1:0 j_n1
+1 jstart_low2 jnum2:0 j_n2
+4 j_n1:0 j_n2:0 j
+1 four instruction instruction
+3 start
+j:1 jstart_low3 jnum3:0 instruction
+3 start
+ 
+jnum1add:0 jnum2add:2 jnum3add:0 jstart_low1:0 jstart_low2:0 jstart_low3:0
+
+go5:2  main one jl_start_low1
+2  main  one jl_start_low2
+2  main one jl_start_low3
+1 one instruction jlnum1
+1 two instruction jlnum2
+1 three instruction jlnum3
+1 jl_start_low1 jlnum1:0 jl_a1
+1 jl_start_low2 jlnum2:0 jl_a2
+
+5 jl_a1:0 jl_a2:0 jl
+1 four instruction instruction
+3 start
+jl:1  jl_start_low3 jlnum3:0 instruction
+3 start
+
+jl_start_low1:0 jl_start_low2:0 jl_start_low3:0
+
+go7:2 main one cstart_low1
+2 main one cstart_low2
+1 one instruction cnum1
+1  two instruction cnum2
+1 cstart_low1 cnum1:0 c_a1
+1 cstart_low2 cnum2:0 c_a2
+7 c_a1:0 c_a2:0
+1 instruction three instruction
+3 start
+cstart_low1:0 cstart_low2:0
+
+
+go9:9
+
+
+go10:1 one instruction mulnum1
+1 two instruction mulnum2
+1 three instruction mulnum3
+1 three instruction m_c_1
+2 main one mulstart_low1
+2 main one mulstart_low2
+2 main one mulstart_low3
+2 main one mulstart_low4
+1 mulstart_low1 mulnum1:0 mul_a1
+1 mulstart_low2 mulnum2:0
+mul_a2
+1 mulstart_low3 mulnum3:0
+mul_a3
+1 mulstart_low4 m_c_1:0
+mul_a4
+here:4 mul_a2:0  count there
+1 mul_a1:0 mul_a3:0 mul_a4:0
+1 count one count
+3 here
+there:1 four instruction instruction
+3 start
+count:0 mulstart_low1:0 mulstart_low2:0 mulstart_low3:0
+mulstart_low4:0
+
+
+
+
+
+10 6 7 8  9 20 3 0 
