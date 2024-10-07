@@ -1,0 +1,28 @@
+3 start first_element_location:100
+n:20
+start:7 first_element_location f_e_l
+7 first_element_location f_e_l1
+
+1 one first_element_location pre_location
+7 pre_location p_l
+1 one pre_location address
+7 address r_address
+5 n one stop
+4 one n  go 
+7 zero f_e_l1:0
+7 one pre_location:0 
+4 counter n stop
+7 f_e_l1 f_e_l2
+7 p_l p_l1
+7 r_address r1_address
+1 f_e_l2:0 p_l1:0 r1_address:0
+1 one counter counter
+1 one f_e_l1 f_e_l1
+1 one p_l p_l
+1 one r_address r_address
+3 39
+9 
+go:7 zero f_e_l:0 
+9
+counter:2 zero:0 one:1 address:0 p_l:0 r_address:0
+stop:9
