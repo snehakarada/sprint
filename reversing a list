@@ -1,0 +1,24 @@
+3 start first_element_location:65
+length:5
+start:1 first_element_location length last_element_location
+2 last_element_location one last_element_location
+7 first_element_location address 
+7 address first_value
+7 address first_value2
+7 last_element_location last_value
+7 last_element_location last_value2
+4 address last_element_location stop
+5 address last_element_location
+37 stop
+7 first_value:0 temp
+7 last_value:0 first_value2:0
+7 temp last_value2:0
+7 zero temp
+1 one address address
+2 last_element_location  one last_element_location
+3 16
+stop:9 
+one:1 zero:0 
+last_element_location:0
+ address:0 temp:0
+e1:5 e2:4 e3:8 e4:9 e5:1 e6:0
