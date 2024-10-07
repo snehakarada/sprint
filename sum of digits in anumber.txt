@@ -1,0 +1,13 @@
+3 5 number:1723 result:0
+7 number dupnumber
+go:7 dupnumber remainder
+move:5 remainder ten 25
+1 one queo queo
+2 remainder ten remainder
+3 move 
+4 remainder zero stop
+1 remainder result result
+7 queo dupnumber 
+7 zero queo
+3 go
+remainder:0 zero:0 ten:10 one:1  dupnumber:0 queo:0 stop:9
