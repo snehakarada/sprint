@@ -1,0 +1,14 @@
+3 start first_element_location:32
+
+length:10
+target:111 result:0  
+start:4 counter length stop
+4 address:e1 target final
+1 one address address
+1 counter one counter
+3 start
+final:1 result one result
+stop:9 one:1 counter:0
+e1:7 e2:5 e3:3 e4:1
+e5:9 e6:8 e7:0 e8:9 e9:11
+e10:20
