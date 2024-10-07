@@ -1,0 +1,33 @@
+3 5 first_element_location:99
+length:5
+4 length zero stop
+4 length one stop
+7 length duplicate_length
+7 first_element_location first_value
+1 length first_element_location last_location
+2 last_location one last_location
+1 one first_element_location pre_location
+jump:7 first_value
+first_value2
+7 first_value
+first_value3
+7 pre_location p_l
+7 pre_location p_l1
+loop:5 first_value:0 pre_location:0 59
+7 first_value2:0 temp
+7 p_l:0 first_value3:0
+7 temp p_l1:0
+7 zero temp
+1 one pre_location pre_location
+1 one already_checked already_checked
+5 already_checked duplicate_length 86
+1 one first_value first_value
+1 first_value one pre_location
+7 one already_checked
+2 duplicate_length one duplicate_length
+4 first_value last_location stop
+3 jump
+
+ last_location:0 one:1 zero:0 temp:0 already_checked:1 duplicate_length:0
+stop:9
+e1:9 e2:7 e3:9 e4:9 e5:0
