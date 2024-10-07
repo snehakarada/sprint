@@ -1,0 +1,23 @@
+3 start number:0 result:0
+start:6 number_location:3
+7 number dupnumber
+5 dupnumber one yes
+3 factorial
+yes:7 one result 3 stop
+
+
+factorial:7 fact counter
+here:4 counter zero equal
+1 dupnumber fact1 fact1
+2 counter one counter
+3 here
+equal:4 dupnumber zero go
+2 dupnumber one dupnumber
+7 fact1 fact
+7 zero fact1
+3 factorial
+go:7 fact result
+
+
+stop:9
+dupnumber:0 one:1 fact:1 counter:0 fact1:0 zero:0
