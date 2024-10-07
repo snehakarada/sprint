@@ -1,0 +1,18 @@
+3 start seq_location:55 seq_length:4 cycle_location:100 cycle_length:20
+start:7 seq_location s_location1
+7 cycle_location c_location1
+move:4 cycle_length count stop
+7 s_location1:0 c_location1:0 
+1 count one count
+1 one s_count s_count 
+1 one s_location1 s_location1
+1 c_location1 one c_location1
+4 s_count seq_length j 
+3 move
+
+j:7 seq_location s_location1
+7 zero s_count
+ 3 move
+
+count:0 one:1 zero:0 s_count:0 stop:9
+e1:1 e2:2 e3:5 e5:7
